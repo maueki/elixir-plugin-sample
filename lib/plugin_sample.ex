@@ -1,0 +1,2 @@
+defmodule PluginSample do
+end
