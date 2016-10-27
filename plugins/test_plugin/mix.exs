@@ -27,6 +27,8 @@ defmodule PluginSample.Plugin.TestPlugin.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:plugin_sample, path: "../../"}
+    ]
   end
 end

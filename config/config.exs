@@ -28,3 +28,5 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :plugin_sample, plugins: [%{path: "plugins/test_plugin/_build/#{Mix.env}/lib/test_plugin/ebin", mod: PluginSample.Plugin.TestPlugin}]
